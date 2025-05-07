@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* black background */
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #003366; /* dark blue */
+    padding: 20px;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+footer {
+    background-color: #003366; /* dark blue */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+#3d-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a; /* dark grey background */
+}
+
+#3d-content {
+    width: 80%;
+    height: 80%;
+}
